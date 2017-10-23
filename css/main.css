@@ -1,0 +1,220 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 2rem;
+    line-height: 1.5rem;
+    overflow: hidden;
+    color: #000;
+
+}
+
+
+header {
+   
+	background-repeat: no-repeat;
+	background-position: center;
+	overflow: hidden;
+	background-color: #e1eff3;
+	z-index: 1;
+	position:fixed;
+	top: 0;
+	width:100%;
+	
+	
+}
+
+header img {
+		width: 20rem;
+		display: block;
+    	padding-top: 1.5rem;
+    	padding-left: 1.7rem;
+    	padding-bottom: 1.5rem;
+    	float:left;
+    	}
+
+header i {
+	float:right;
+	padding: 1.8rem 1.5rem 0% 5%;
+	color:black;
+	
+	
+}
+
+.tagline{
+ 
+ 	font-style: italic;
+	z-index: 3;
+	position: absolute;
+	top: 43rem;
+	left:1.5rem;
+	color: #688796;
+	font-weight: 550;
+	
+	font-size: 1.5rem;
+	line-height: 2rem;
+	font-family: 'Dosis', sans-serif;
+	padding-left: 2.5rem;
+	padding-right: 3rem;
+	padding-top: .7rem;
+	padding-bottom: 1rem;
+	max-width: 255px;
+	box-sizing: border-box;
+	background-image: url("../img/flair-stroke.png");
+	background-size: 103.7%;
+	letter-spacing: .03rem;
+}
+
+@media screen and (min-width: 37.5rem) {
+
+.tagline{
+ 
+ 	font-style: italic;
+	z-index: 3;
+	position: absolute;
+	top:42.5rem;
+	right: 2rem;
+	color: #000;
+	font-size: 1.5rem;
+	line-height: 2rem;
+	font-family: 'Dosis', sans-serif;
+}
+}
+
+main ol {
+	box-sizing: border-box;
+	z-index: 3;
+	max-width: 250px;
+	display: inline-block;
+
+	position: absolute;
+	top:6rem;
+	
+	
+	padding: 1rem;
+	margin-left:1.5rem;
+	
+	background-position: left;
+
+
+}
+
+ol li a {
+	text-decoration: none;
+}
+
+main h1 {
+	font-family: 'Dosis', sans-serif;
+	font-size: 1.7rem;
+	line-height: 1.9rem;
+	margin-bottom:.8rem;
+	margin-top:1;
+	letter-spacing: .05rem;
+	color: #000;
+
+
+	
+}
+
+main p {
+	font-family: 'Roboto', sans-serif;
+	font-size:.9rem;
+	font-weight: 600;
+	margin: 0;
+	margin-bottom: 1.5rem;
+	padding:0;
+	color: #000;
+}
+
+
+ footer{
+
+ 	font-family: 'Roboto', sans-serif;	font-size: 2rem;
+ 	font-size: 1rem;
+ 	font-weight: bold;
+	padding: .90rem 2rem;
+	margin-top: 1.5rem;
+	color:#000;
+
+
+ 	position: fixed;
+ 	
+ 	bottom:0;
+ 	z-index: 2
+ }
+
+footer .fa-pinterest {
+	z-index: 1;
+	position: absolute;
+	left: 85%;
+	bottom:-70.4rem;
+}
+
+footer .fa-instagram  {
+	position: absolute;
+	left: 90%;
+	bottom:-70.4rem;
+}
+
+footer .fa-facebook {
+	position: absolute;
+	left: 95%;
+	bottom:-70.4rem;
+}
+
+@media screen and (min-width: 37.5rem) {
+	footer {
+		overflow: hidden;
+	}
+
+	footer .fa-pinterest {
+	
+	position: absolute;
+	left: 85%;
+	bottom:-67.3rem;
+	}
+
+	footer .fa-instagram  {
+	position: absolute;
+	left: 90%;
+	bottom:-67.3rem;
+	}
+
+	footer .fa-facebook {
+	position: absolute;
+	left: 95%;
+	bottom:-67.3rem;
+	}
+ }
+
+
+@media screen and (min-width: 37.5rem) {
+
+body {
+	
+	background-image: url("../img/background1.jpg");
+
+	background-size: 100%;
+	background-repeat: no-repeat;
+	
+
+ 
+ }
+}
+
+@media screen and (max-width: 37.5rem) {
+
+	
+
+	footer{
+
+ 	font-family: 'Roboto', sans-serif;	font-size: 2rem;
+ 	font-size: 1rem;
+ 	font-weight: bold;
+ 	
+	
+ 	z-index: 1
+ }
+
+}
+
+
+
